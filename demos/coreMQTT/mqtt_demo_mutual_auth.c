@@ -83,6 +83,8 @@
 
 #include <dht.h>
 
+#include <bmp180.h>
+
 /*------------- Demo configurations -------------------------*/
 
 /** Note: The device client certificate and private key credentials are
