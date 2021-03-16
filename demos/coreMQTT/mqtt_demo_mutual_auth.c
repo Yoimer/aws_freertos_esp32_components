@@ -81,6 +81,8 @@
 /* Include header for root CA certificates. */
 #include "iot_default_root_certificates.h"
 
+#include <dht.h>
+
 /*------------- Demo configurations -------------------------*/
 
 /** Note: The device client certificate and private key credentials are
