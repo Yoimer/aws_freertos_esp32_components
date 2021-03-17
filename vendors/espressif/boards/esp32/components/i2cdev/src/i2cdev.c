@@ -15,6 +15,8 @@
 
 static const char *TAG = "i2cdev";
 
+#define CONFIG_I2CDEV_TIMEOUT 10
+
 typedef struct {
     SemaphoreHandle_t lock;
     i2c_config_t config;
