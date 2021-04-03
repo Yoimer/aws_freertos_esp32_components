@@ -32,6 +32,8 @@
 #ifndef _IOT_BLE_CONFIG_H_
 #define _IOT_BLE_CONFIG_H_
 
+#define IOT_BLE_ENABLE_WIFI_PROVISIONING 1
+
 /* Device name for this peripheral device. */
 #define IOT_BLE_DEVICE_COMPLETE_LOCAL_NAME                      "ESP32"
 

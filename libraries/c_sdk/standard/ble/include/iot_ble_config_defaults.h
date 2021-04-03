@@ -122,7 +122,7 @@
  * This define needs to be of type BTIOtypes_t.
  */
 #ifndef IOT_BLE_INPUT_OUTPUT
-    #define IOT_BLE_INPUT_OUTPUT    eBTIODisplayYesNo
+    #define IOT_BLE_INPUT_OUTPUT    eBTIONone
 #endif
 
 /**
@@ -178,7 +178,7 @@
  * By default secure connection will be enable on all device.
  */
 #ifndef IOT_BLE_ENABLE_SECURE_CONNECTION
-    #define IOT_BLE_ENABLE_SECURE_CONNECTION    ( 1 )
+    #define IOT_BLE_ENABLE_SECURE_CONNECTION    ( 0 )
 #endif
 
 /* Config if set, requires encryption to access services and characteristics */
@@ -187,7 +187,7 @@
  * @brief Configuration to force encryption to access all characteristics of services.
  */
 #ifndef IOT_BLE_ENCRYPTION_REQUIRED
-    #define IOT_BLE_ENCRYPTION_REQUIRED    ( 1 )
+    #define IOT_BLE_ENCRYPTION_REQUIRED    ( 0 )
 #endif
 
 /**
@@ -197,7 +197,7 @@
  * device will use just works pairing.
  */
 #ifndef IOT_BLE_ENABLE_NUMERIC_COMPARISON
-    #define IOT_BLE_ENABLE_NUMERIC_COMPARISON    ( 1 )
+    #define IOT_BLE_ENABLE_NUMERIC_COMPARISON    ( 0 )
 #endif
 
 /**
